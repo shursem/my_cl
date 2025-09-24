@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+    <h1>Capture Your Moments with Lensly</h1>
+    <p>Find and book professional photographers for any occasion.</p>
+    <a href="{{ url_for('signup') }}" class="btn">Sign Up</a>
+</section>
+
+<section class="services">
+    <div class="card">Wedding Photography</div>
+    <div class="card">Product Photography</div>
+    <div class="card">Model Photography</div>
+</section>
+{% endblock %}
