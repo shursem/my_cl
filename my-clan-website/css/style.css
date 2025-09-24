@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+header h1 { margin: 0; color: #f0db4f; }
+header p { margin: 5px 0; font-style: italic; }
+nav { margin-top: 10px; }
+nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+nav a:hover { color: #f0db4f; }
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  color: #f0db4f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Player Cards */
+.team {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.card h3 { margin: 10px 0; color: #f0db4f; }
+.card p { font-size: 14px; color: #ccc; }
+.highlight { background: #333; color: #f0db4f; }
+
+/* Gallery Scroll */
+.gallery-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scrollbar-width: thin;
+}
+.gallery-card {
+  min-width: 250px;
+  background: #222;
+  border-radius: 10px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.gallery-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.gallery-card p {
+  margin: 5px 0;
+  color: #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: #f0db4f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover { background: #d4bb3f; }
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+a { color: #f0db4f; }
